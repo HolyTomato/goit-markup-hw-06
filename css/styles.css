@@ -854,7 +854,7 @@ img{
 
 .modal-input:focus + .modal-icon{
   fill: var(--accent-color);
-  outline-color: var(--accent-color);
+  outline-color: rgba(33, 150, 243, 1);
 }
 
 .modal-close::placeholder{
