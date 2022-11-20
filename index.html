@@ -299,12 +299,12 @@
           class="input-subscribe"
           >
           <div class="footer-input-icon">
-            <button type="submit" class="footer-button modal-button">Підписатися 
+            <button type="submit" class="footer-button">Підписатися 
               <span class="subscribe-icon">
             <svg class="icon-send" width="24" height="24">
               <use href="./images/icons.svg#send"></use>
             </svg>
-         </span></button> </div>
+         </span></button></div>
         </form>
       </div>
       </div>
@@ -326,7 +326,6 @@
                    <svg class="modal-icon" width="18" height="18">
                     <use href="./images/icons.svg#person"></use>
                    </svg></div>
-           
             <label for="user-tel" class="input-label">Номер</label>
            <div class="modal-input-icon"> 
             <input name="user-tel" 
@@ -352,21 +351,20 @@
                       id="comment"
                       placeholder="Введіть текст"
                       class="modal-comment"></textarea>
-            <div class="modal-terms"> 
-            <input type="checkbox"
+            <label for="terms" class="terms">
+              <input type="checkbox"
                    id="terms" 
                    name="terms" 
                    value="terms"
                    class="terms-input visually-hidden">
-            <label for="terms" class="terms">
             <span class="terms-check">
               <svg class="check-icon" width="20" height="15">
                 <use href="./images/icons.svg#check"></use>
               </svg>
-            </span>Погоджуюся з розсилкою та приймаю <span><a class="terms-link" href="#">Умови договору</a></span>
+            </span>
+            <span>Погоджуюся з розсилкою та приймаю <a class="terms-link" href="#">Умови договору</a></span>
             </label>
-            </div>
-            <div class="modal-button-send"><button type="submit" class="modal-button">Відправити</button></div>
+           <button type="submit" class="modal-button">Відправити</button>
            </form>
           </div>
         </div>
