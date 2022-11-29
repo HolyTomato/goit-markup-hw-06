@@ -707,12 +707,13 @@ img{
 }
 
 .footer-button{
-  display: flex;
+  position: relative;
+  display: inline-block;
+  margin-left: 12px;
   align-items: center;
   justify-content: center;
 
   cursor: pointer;
-  margin: auto;
   width: 200px;
   height: 50px;
   
@@ -745,12 +746,12 @@ img{
 
   color:var(--primary-white-color);
 }
-
+/* 
 .footer-input-icon{
   position: relative;
   display: inline-block;
   margin-left: 12px;
-}
+} */
 
 .icon-send{
   position: absolute;
